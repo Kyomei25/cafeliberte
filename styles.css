@@ -157,6 +157,32 @@ nav {
 }
 
 /* その他のセクション */
+
+.interior {
+  padding: 40px;
+  text-align: center;
+}
+
+.interior-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.interior-image img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .interior {
+    padding: 20px;
+  }
+  
+  .interior-image {
+    margin-bottom: 10px;
+  }
+}
 section {
   padding: 40px;
   text-align: center;
